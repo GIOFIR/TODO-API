@@ -1,0 +1,44 @@
+# -----------------------
+# Virtual environment
+# -----------------------
+venv/
+.env/
+__pycache__/
+
+# -----------------------
+# Python compiled files
+# -----------------------
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.whl
+
+# -----------------------
+# IDE / Editor files
+# -----------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -----------------------
+# OS files
+# -----------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# Logs and temporary files
+# -----------------------
+*.log
+*.tmp
+*.bak
+
+# -----------------------
+# FastAPI / Web project
+# -----------------------
+instance/
+*.db
