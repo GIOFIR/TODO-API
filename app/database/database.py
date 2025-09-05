@@ -5,7 +5,7 @@ from typing import Optional
 
 logger = logging.getLogger(__name__)
 
-DATABASE_URL = "postgresql://postgres:8652364@localhost:5432/todoApp"
+DATABASE_URL = "YOUR DATABASE URL"
 
 db_pool: Optional[asyncpg.Pool] = None
 
